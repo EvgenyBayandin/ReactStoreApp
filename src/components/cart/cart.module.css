@@ -1,0 +1,88 @@
+.overlay{
+   /*display: none;*/
+   position: absolute;
+   left: 0;
+   right: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.404);
+	z-index: 2;
+}
+
+.cart {
+   display: grid;
+   grid-template-rows: 0.5fr 6fr 1fr;
+   position: absolute;
+   width: 700px;
+   right: 0;
+   height: 100%;
+   background-color: white;
+   box-shadow: -10px 0px 20px #00000080;
+   padding: 0px 50px 0px 50px;
+}
+
+.cart_list{
+	overflow: auto;
+}
+
+.title_block{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.title_block h2{
+   font-size: 32px;
+}
+
+.close_btn{
+	width: fit-content;
+	justify-self: end;
+	align-self: center;
+	border: 2px solid #001aff;
+	border-radius: 10px;
+	background-color: white;
+	color: #001aff;
+	padding: 7px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: start;
+	width: fit-content;
+	cursor: pointer;
+	transition: transform 0.5s ease-in-out;
+}
+
+.total_price{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1.3fr 2fr;
+   align-items: end;
+}
+
+.total_price button {
+   grid-row: 2/3;
+   grid-column: 1/3;
+   align-self: center;
+   height: fit-content;
+   background-color: #001aff;
+   border: 0;
+   border-radius: 10px;
+   color: white;
+   font-size: 22px;
+   padding: 20px;
+   cursor: pointer;
+}
+
+.total_price button:active {
+   background-color: white;
+   color: #001aff;
+   border: 2px solid #001aff;
+}
+
+.total_price p{
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.total_price_summ{
+   justify-self: end;
+}

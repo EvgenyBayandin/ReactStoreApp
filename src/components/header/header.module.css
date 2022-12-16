@@ -1,0 +1,48 @@
+header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: black;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: end;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+}
+
+.nav_item{
+	background: black;
+    color: #001AFF;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav_item:hover{
+    color: white;
+}
+
+.cart_btn{
+	display: grid;
+	grid-template-columns: 2fr 0.5fr;
+
+}
+
+.count_cart_items{
+	font-size: 14px;
+	font-weight: bold;
+	background: white;
+	padding: 5px;
+	border-radius: 20px;
+	color: #001AFF;
+	margin: auto;
+}

@@ -1,0 +1,8 @@
+.text_section {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.text_section h2 {
+	text-align: center;
+}
